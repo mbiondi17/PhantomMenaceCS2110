@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeamProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play_game">PLAY!</string>
+    <string name="record_button">Records</string>
+    <string name="settings_button">Settings</string>
+    <string name="title_activity_records">Records</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_play_game">PlayGame</string>
+    <string name="character">Character</string>
+    <string name="score_display">Score:</string>
+    <string name="turn_bkg_mus_off">Background Music OFF</string>
+
+    <array name="myBackgrounds">
+        <item>@drawable/bkg1</item>
+        <item>@drawable/bkg2</item>
+        <item>@drawable/bkg3</item>
+        <item>@drawable/bkg4</item>
+        <item>@drawable/bkg5</item>
+    </array>
+
+    <string name="title_activity_death_screen">DeathScreen</string>
+    <string name="title_activity_difficulty_screen">DifficultyScreen</string>
+    <string name="title_activity_play_game_easy">PlayGameEasy</string>
+    <string name="title_activity_play_game_hard">PlayGameHard</string>
+    <string name="title_activity_death_screen_easy">DeathScreenEasy</string>
+    <string name="title_activity_death_screen_hard">DeathScreenHard</string>
+
+</resources>

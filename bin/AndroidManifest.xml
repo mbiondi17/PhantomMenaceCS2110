@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="virginia.edu.teamproject.cs2110"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Records"
+            android:label="@string/title_activity_records" >
+        </activity>
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name=".PlayGame"
+            android:label="@string/title_activity_play_game" >
+        </activity>
+        <activity
+            android:name=".DeathScreen"
+            android:label="@string/title_activity_death_screen" >
+        </activity>
+        <activity
+            android:name=".DifficultyScreen"
+            android:label="@string/title_activity_difficulty_screen" >
+        </activity>
+        <activity
+            android:name=".PlayGameEasy"
+            android:label="@string/title_activity_play_game_easy" >
+        </activity>
+        <activity
+            android:name=".PlayGameHard"
+            android:label="@string/title_activity_play_game_hard" >
+        </activity>
+        <activity
+            android:name=".DeathScreenEasy"
+            android:label="@string/title_activity_death_screen_easy" >
+        </activity>
+        <activity
+            android:name=".DeathScreenHard"
+            android:label="@string/title_activity_death_screen_hard" >
+        </activity>
+    </application>
+
+</manifest>
